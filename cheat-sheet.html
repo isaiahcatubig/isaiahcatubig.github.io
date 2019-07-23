@@ -1,0 +1,104 @@
+<!--cheat-sheet.html --> 
+<!DOCTYPE html> <!--DOCTYPE tells the browser what kind of file we are using -->
+<html> <!-- start of html document --> 
+<!-- HTML shell: html, head, body -->
+<head> <!-- start head section: configuration -->
+	<title>My Cheat-sheet</title> <!-- title on the tab of the browser -->
+	<!-- link is to bring my styles from my css file into this html. Href is the attribute with the name of the css file -->
+	<link rel="stylesheet" type="text/css" href="cheat-sheet.css">
+	<style type="text/css">
+		/* this is an internal styling */ 
+		div {
+			margin-top: 20px; 
+			margin-left: 20px; 
+			margin-bottom: 20px;
+			margin-right: 20px;
+			border-style: dotted;
+			border-color: red;
+	</style>
+</head> <!-- ending of head section -->
+<body> <!-- start of body section: all visible parts of the web page -->
+<h1 class="heading">Heading 1</h1><!-- heading to show section titles -->
+<!-- class heading is for styling -->
+<h1>Heading 1</h1> <!-- heading is to show section titles -->
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<!-- p will add a paragraph with a space above and below -->
+<!-- p has an id for styling -->
+<p id="my_paragraph">This is a pretend paragraph. I am in computer science class writing a very long fake paragraph. We are having so much fun in computer science class. Tomorrow we have computer science class. </p>
+<p>This is a pretend paragraph. I am in computer science class writing a very long fake paragraph. We are having so much fun in computer science class. Tomorrow we have computer science class. </p>
+<!-- img is to add images to the web page, src is the path to the image and name, alt is a text description for img, height in pixels, width in pixels-->
+<img src="images/stanford.jpg"
+style="width: 460px; 
+height: 160px"> 
+<!-- unordered list --> 
+<ul type="disc">
+	<li>My candy</li><!--li (list element) for elements on the list -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+<!-- ul:unordered list type square -->
+<ul type="square">
+	<li>My candy</li><!--li (list element) for elements on the list -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+<!-- ul:unordered list type circle -->
+<ul type="circle">
+	<li>My candy</li><!--li (list element) for elements on the list -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+<!--ordered list type "1" -->
+<ol type="1">
+	<li> First class</li>
+	<li> Second class</li>
+	<li> Third class</li>
+	<li> Fourth class</li>
+</ol>
+	<ol type="A">
+	<li> First class</li>
+	<li> Second class</li>
+	<li> Third class</li>
+	<li> Fourth class</li>
+</ol>
+<ol type="a">
+	<li> First class</li>
+	<li> Second class</li>
+	<li> Third class</li>
+	<li> Fourth class</li>
+</ol>
+<!-- ordered list type "I" uses capital roman numerals -->
+<ol type="I">
+	<li> First class</li>
+	<li> Second class</li>
+	<li> Third class</li>
+	<li> Fourth class</li>
+</ol>
+<!-- order list type "i" uses lowercase roman numerals -->
+<ol type="i">
+	<li> First class</li>
+	<li> Second class</li>
+	<li> Third class</li>
+	<li> Fourth class</li>
+</ol>
+<!-- a tag (anchor) is to add hyperlinks -->
+<a href="https://www.youtube.com/">YouTube</a><!-- absolute link -->
+<br> <!-- line break -->
+<a href="cheat-sheet.html">Cheat Sheet </a><!-- relative link -->
+<!-- div is to define an area within the web page. -->
+<div>
+	<p>This is another paragraph.</p>
+	<ol type="i">
+		<li>First class</li>
+		<li>Second class</li>
+		<li>Third class</li>
+		<li>Fourth class</li>
+	</ol>
+</div>
+
+</body> <!-- ending of body section -->
+</html> <!-- ending of html document -->

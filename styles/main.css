@@ -1,0 +1,22 @@
+/* styles/main.css */
+
+body { background: blue;
+color: white; font-weight: bold; font-family: 'Magra', sans-serif;}
+
+ol 
+
+a{text-decoration: none;}
+
+#border { border: round;
+border-style: solid;
+border-color: white; 
+border-radius: 15px}
+
+#nav {background-color: red2;
+color:white;
+width: 250px;}
+
+.image {
+	border: round; 
+	border-style: solid;
+	margin: 20px 40px 60px 80px;}
